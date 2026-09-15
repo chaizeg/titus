@@ -3,7 +3,7 @@
 # titus CLI reference
 
 Every command, alias and flag below is derived from the cobra command tree, not from prose.
-Schema version 1, surface hash `sha256:4d4da820671766fd35b8066eb3ac71db3ec866e2d13330488d29d7af05f8c5e5`.
+Schema version 1, surface hash `sha256:2558b62d4ace4f813bb5dbe723ec88d483d13b7b960667fcbea28223ae825b00`.
 
 Regenerate with `make cli-docs` after adding, removing or renaming a command or a flag.
 
@@ -925,6 +925,7 @@ Generate a report from scan results
 
 | Flag | Short | Type | Default | Description |
 | --- | --- | --- | --- | --- |
+| `--all-matches` |  | bool | `false` | Show all matches per finding in human output instead of the first 3 |
 | `--color` |  | string | `auto` | Color output: auto, always, never |
 | `--datastore` |  | string | `titus.ds` | Path to datastore directory or file |
 | `--format` |  | string | `human` | Output format: human, json, sarif |

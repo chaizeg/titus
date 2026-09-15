@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "surfaceHash": "sha256:4d4da820671766fd35b8066eb3ac71db3ec866e2d13330488d29d7af05f8c5e5",
+  "surfaceHash": "sha256:2558b62d4ace4f813bb5dbe723ec88d483d13b7b960667fcbea28223ae825b00",
   "commands": [
     {
       "path": "titus",
@@ -2651,6 +2651,12 @@
       "short": "Generate a report from scan results",
       "runnable": true,
       "flags": [
+        {
+          "name": "all-matches",
+          "type": "bool",
+          "default": "false",
+          "usage": "Show all matches per finding in human output instead of the first 3"
+        },
         {
           "name": "color",
           "type": "string",
